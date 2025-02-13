@@ -1,0 +1,518 @@
+/* declaramos las variables */
+
+:root {
+
+    --green_color: #00BF63;
+}
+
+/* ------------------------------------------------ */ 
+
+/* declaramos la fuentes de texto */ 
+
+@font-face {
+    font-family: 'inter';
+    src: url(/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+
+/* ------------------------------------------------ */ 
+
+/* Reiniciamos valores de la pagina */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+
+/* ------------------------------------------------ */ 
+
+/* resolicion del body */ 
+
+body {
+
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* ------------------------------------------------ */ 
+
+/* stilos del header */
+
+header img {
+   
+    width: 1900px;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: relative;
+}
+
+
+.textos {
+    
+    width: 1400px;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    align-items: last center;
+    justify-content: space-between;
+    position: absolute;
+    padding: 20px;
+
+    margin-left: 200px;
+    margin-bottom: -100px;
+    margin-top: 150px;
+
+
+
+    z-index: 1;
+    
+}
+
+.borcelle {
+    width: 180px;
+    height: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    font-family: inter;
+    
+
+    background-color: black;
+    border-radius: 50px 50px 50px 50px;
+
+
+}
+
+.borcelle sub {
+    
+    font-size: 25px;
+    font-family: inter;
+    color: white;
+
+    margin-bottom: 20px;
+    margin-left: 5px;
+
+}
+
+.textos h3 {
+
+    width: 900px;
+    height: 350px;
+    text-transform: capitalize;
+    margin: 0;
+    font-size: 95px;
+    letter-spacing: 2px;
+    font-family: inter;
+    margin-bottom: 20px;
+
+}
+
+.textos p {
+
+    width: 700px;
+    height: auto;
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-family: inter;
+    
+}
+
+.descuento {
+
+    width: 395px;
+    height: 395px;
+    border-radius: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -12vh;
+    margin-right: -2vh;
+    font-family: inter;
+    
+    background-color: var(--green_color);
+
+
+}
+
+.descuento strong {
+
+    font-size: 100px;
+    margin-left: 40px;
+    font-family: inter;
+
+    color: white;
+
+}
+
+.descuento b {
+
+    font-size: 75px;
+    margin-left: 40px;
+    font-family: inter;
+    
+
+    color: white;
+
+}
+
+
+
+
+*/
+/* ------------------------------------------------ */ 
+
+/* estilos del main */ 
+
+main {
+
+    max-width: 1900px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.cards {
+
+    width: 1800px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+
+}
+
+.cards img {
+
+    max-width: 980px;
+    height: 390px;
+    padding: 15px;
+    margin-left: 20px;
+
+}
+
+.card_1,  .card_2 ,
+ .card_3,  .card_4,  .card_5, .card_6 {
+
+    padding: 15px;
+    margin: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: inter;
+
+}
+
+
+.cards sub s {
+
+    text-decoration: line-through 4px red;
+
+    
+}
+
+h3 {
+
+    font-family: inter;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: -30px;
+
+}
+
+sub {
+
+    font-family: inter;
+    font-size: 23px;
+    padding: 7px;
+    margin-left: -40px;
+    margin-top: 20px;
+}
+
+strong {
+
+    font-size: 25px;
+    margin-left: 25px;
+    margin-left: 75px;
+}
+
+/* ------------------------------------------------ */ 
+
+/* stilos del footer */ 
+
+footer {
+
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    
+}
+
+.container_3 {
+
+    width:1810px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    align-items: center;
+
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 1px;
+
+
+
+    background-color: black;
+}
+
+.container_3 .bottom {
+
+    width: 220px;
+    height: 65px;
+    border-radius: 50px  50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-left: 200px;
+    
+
+    background-color: var(--green_color);
+}
+
+.bottom sub {
+
+    font-family: inter;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+
+    color: white;
+} 
+
+/* ------------------------------------------------ */ 
+
+/*  media del header  */
+
+
+@media screen and (max-width: 780px) {
+
+    body {
+
+        width: 100%;
+        height: auto;
+    }
+
+    header {
+
+        width: 100%;
+        height: 100%;
+    }
+
+    header img {
+
+        width: 1798px;
+        height: 720px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        
+    }
+    
+    
+    .textos {
+
+        margin-left: 200px;
+        margin-top: 50px;
+
+     }
+
+    .borcelle {
+
+        margin-top: 30px;
+        margin-bottom: 50px;
+
+
+    }
+
+    .borcelle sub {
+
+        margin-bottom: 20px;
+        margin-left: 5px;
+
+    }
+
+    .textos h3 {
+
+        font-size: 90px;
+        margin-bottom: 5px;
+
+    }
+
+    .textos p {
+
+        font-size: 40px;
+        margin-top: -10px;
+        margin-bottom: 40px;
+    }
+
+
+    .descuento {
+
+        width: 325px;
+        height: 325px;
+        margin-top: -12vh;
+        margin-right: 117px;
+        font-family: inter;
+
+    }
+
+    .descuento strong {
+
+        margin-left: 40px;
+
+    }
+
+    .descuento b {
+
+        margin-left: 40px;
+
+    }
+
+    
+}
+
+
+/* ------------------------------------------------ */ 
+
+/*  media del main  */
+
+@media screen and (max-width: 780px) {
+
+    main {
+
+        width: 100%;
+        height: 100%;
+    
+    
+    }
+    
+    
+    .cards {
+    
+        width: 1500px;
+        padding: 20px;
+        margin: 15px;
+    
+    }
+    
+    .cards img {
+    
+        width: 780px;
+        height: auto;
+        margin-left: 250px;
+    
+    }
+    
+    
+    
+    .cards sub s {
+    
+        text-decoration: line-through 12px red;
+    
+        
+    }
+    
+    h3 {
+
+        font-size: 92px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+    
+    }
+    
+    sub {
+    
+
+        font-size: 75px;
+        padding: 7px;
+        margin-left: -40px;
+        margin-top: 20px;
+    }
+    
+    strong {
+    
+        font-size: 85px;
+        margin-left: 100px;
+    }
+    
+}
+
+/* ------------------------------------------------ */ 
+
+/*  media del footer  */
+
+@media screen and (max-width: 780px) {
+
+
+    footer {
+
+        width: 100%;
+        height: auto;        
+
+    }
+
+    .container_3 {
+
+        width: 1660px;
+        height: 300px;
+
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 1px;
+
+    }
+
+    .container_3 .bottom {
+
+        width: 420px;
+        height: 150px;
+
+    }
+
+    .bottom sub {
+
+        font-size: 60px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+
+    } 
+
+}
+
